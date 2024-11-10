@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ThreeJS</title>
+        <style>
+            body {
+                margin: 0px;
+                overflow: hidden;
+            }
+        </style>
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "./libs/three.module.min.js",
+                    "three/addons/": "./libs/jsm/"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <canvas id="mainDisp"></canvas>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
